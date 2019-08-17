@@ -10,55 +10,64 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="jumbotron">
-                        <h1 class="text-center">Find Your Akan Name</h1>
-                        <p class="text-center">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+                        <h1 class="text-center text-white">Find Your Akan Name</h1>
+                        <p class="text-center text-white">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
 
                         <div class="container">
                             <div class="col-md-12">
-                                <form class="container">
+                                <form class="form">
                                     <div class="form-group row">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Day</label>
+                                        <label for="day-of-birth" class="col-sm-2 col-form-label text-white">Day</label>
                                         <div class="col-sm-10">
-                                            <input type="number" class="form-control" id="inputEmail3" placeholder="Enter day only e.g 15">
+                                            <input type="number" class="form-control" id="day-of-birth" placeholder="Enter day only e.g 15">
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="inputPassword3" class="col-sm-2 col-form-label">Month</label>
+                                        <label for="month-of-birth" class="col-sm-2 col-form-label text-white">Month</label>
                                         <div class="col-sm-10">
-                                            <input type="number" class="form-control" id="inputPassword3" placeholder="Enter month only e.g 12">
+                                            <input type="number" class="form-control" id="month-of-birth" placeholder="Enter month only e.g 12">
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="inputPassword3" class="col-sm-2 col-form-label">Year</label>
+                                        <label for="year-of-birth" class="col-sm-2 col-form-label text-white">Year</label>
                                         <div class="col-sm-10">
-                                            <input type="number" class="form-control" id="inputPassword3" placeholder="Enter year only e.g 1990">
+                                            <input type="number" class="form-control" id="year-of-birth" placeholder="Enter year only e.g 1990">
                                         </div>
                                     </div>
                                     <fieldset class="form-group">
                                         <div class="row">
-                                        <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                                        <legend class="col-form-label col-sm-2 pt-0 text-white">Gender</legend>
                                             <div class="col-sm-10">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                                    <label class="form-check-label" for="gridRadios1">
+                                                    <input class="form-check-input" type="radio" name="gender" id="males" value="option1" checked>
+                                                    <label class="form-check-label text-white" for="males">
                                                         Male
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                                    <label class="form-check-label" for="gridRadios2">
+                                                    <input class="form-check-input" type="radio" name="gender" id="females" value="option2">
+                                                    <label class="form-check-label text-white" for="females">
                                                         Female
                                                     </label>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>  
                                     </fieldset>
                                     <div class="form-group row">
-                                        <div class="col-sm-10">
-                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        <div class="col-sm-6">
+                                            <button onclick="yourSubmission()" type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <a href="index.html">
+                                                <button class="btn btn-primary">Reset</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </form>
+                            </div>
+
+                            <div class="col-md-12">
+                                <h2 class="text-center text-white" id="answerArea">Answer shows here...</h2>
                             </div>
                         </div> 
                     </div>
@@ -69,10 +78,11 @@
             <div class="card-group">
                 <div class="card bg-primary">
                     <div class="card-body text-center">
+                        <i class="fas fa-mars"></i>
                     </div>
                 </div>
-                <div class="card bg-warning">
-                    <div class="card-body text-center">
+                <div class="card bg-light">
+                    <div class="card-body">
                         <h3 class="card-text">Male</h3>
                         <ul class="card-text">
                             <li>Sunday: Kwasi</li>
@@ -87,11 +97,11 @@
                 </div>
                 <div class="card bg-success">
                     <div class="card-body text-center">
-                    <p class="card-text">Some text inside the third card</p>
+                        <i class="fas fa-venus"></i>
                     </div>
                 </div>
-                <div class="card bg-danger">
-                    <div class="card-body text-center">
+                <div class="card bg-light">
+                    <div class="card-body">
                         <h3 class="card-text">Female</h3>
                         <ul class="card-text">
                             <li>Sunday: Akosua</li>
@@ -107,5 +117,6 @@
             </div>
         </footer>
         <script src="assets/js/script.js"></script>
+        <script src="https://kit.fontawesome.com/71daca51f7.js"></script>
     </body>
 </html>
