@@ -55,31 +55,31 @@ function main () {
 	    switch(dayIndex) {
 	    		case 0:
 	        akanName = "Kwasi";
-	        alert("Kwasi");
+	        alert("Your Akan name is Kwasi");
 	        break;
 	        case 1:
 	        akanName = "Kwadwo";
-	        alert("Kwadwo");
+	        alert("Your Akan name is Kwadwo");
 	        break;
 	        case 2:
 	        akanName = "Kwabena";
-	        alert("Kwabena");
+	        alert("Your Akan name is Kwabena");
 	        break;
 	        case 3:
 	        akanName = "Kwaku";
-	        alert("Kwaku");
+	        alert("Your Akan name is Kwaku");
 	        break;
 	        case 4:
 	        akanName = "Yaw";
-	        alert("Yaw");
+	        alert("Your Akan name is Yaw");
 	        break;
 	        case 5:
 	        akanName = "Kofi";
-	        alert("Kofi");
+	        alert("Your Akan name is Kofi");
 	        break;
 	        case 6:
 	        akanName = "Kwame";
-	        alert("Kwame");
+	        alert("Your Akan name is Kwame");
 	        break;
 	        default:
 	        akanName = "Please input the correct details!"
@@ -89,31 +89,31 @@ function main () {
 		switch(dayIndex) {
 				case 0:
 				akanName = "Akosua";
-				alert("Akosua");
+				alert("Your Akan name is Akosua");
 				break;
 				case 1:
 				akanName = "Adwoa";
-				alert("Adwoa");
+				alert("Your Akan name is Adwoa");
 				break;
 				case 2:
 				akanName = "Abenaa";
-				alert("Abenaa");
+				alert("Your Akan name is Abenaa");
 				break;
 				case 3:
 				akanName = "Akua";
-				alert("Akua");
+				alert("Your Akan name is Akua");
 				break;
 				case 4:
 				akanName = "Yaa";
-				alert("Yaa");
+				alert("Your Akan name is Yaa");
 				break;
 				case 5:
 				akanName = "Afua";
-				alert("Afua");
+				alert("Your Akan name is Afua");
 				break;
 				case 6:
 				akanName = "Ama";
-				alert("Ama");
+				alert("Your Akan name is Ama");
 				break;
 				default:
 				akanName = "Please input the correct details!"
