@@ -10,6 +10,7 @@ as a 'day name' which corresponds to the day in the week they were born.
 * Navigate into the unzipped folder
 * Open the index.html with a browser of your choice
 One doesn't have to install this app in a server in order to have it running in their system. It's simply made from HTML so one can run it directly using a browser.
+* link to live site https://bryomajor.github.io/akan-names
 ## Known Bugs
 There are no bugs.
 ## Technologies Used
