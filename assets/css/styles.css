@@ -61,3 +61,10 @@ footer ul {
 h2 {
     font-weight: bold;
 }
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    margin-top: 2%;
+}
