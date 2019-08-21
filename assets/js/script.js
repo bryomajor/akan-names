@@ -51,22 +51,22 @@ function main () {
 	else if(gender === 'female' && dayOfTheWeek === 0) {
 		alert("Your Akan name is " + femaleAkanNames[0]);
 	}
-	else if(gender === 'male' && dayOfTheWeek === 1) {
+	else if(gender === 'female' && dayOfTheWeek === 1) {
 		alert("Your Akan name is " + femaleAkanNames[1]);
 	}
-	else if(gender === 'male' && dayOfTheWeek === 2) {
+	else if(gender === 'female' && dayOfTheWeek === 2) {
 		alert("Your Akan name is " + femaleAkanNames[2]);
 	}
-	else if(gender === 'male' && dayOfTheWeek === 3) {
+	else if(gender === 'female' && dayOfTheWeek === 3) {
 		alert("Your Akan name is " + femaleAkanNames[3]);
 	}
-	else if(gender === 'male' && dayOfTheWeek === 4) {
+	else if(gender === 'female' && dayOfTheWeek === 4) {
 		alert("Your Akan name is " + femaleAkanNames[4]);
 	}
-	else if(gender === 'male' && dayOfTheWeek === 5) {
+	else if(gender === 'female' && dayOfTheWeek === 5) {
 		alert("Your Akan name is " + femaleAkanNames[5]);
 	}
-	else if(gender === 'male' && dayOfTheWeek === 6) {
+	else if(gender === 'female' && dayOfTheWeek === 6) {
 		alert("Your Akan name is " + femaleAkanNames[6]);
 	}
 	else {
